@@ -11,7 +11,6 @@ class Application extends GenryApplication
         $modules = parent::loadModules();
         
         // add your own custom modules to $modules array
-        $modules[] = new MD\GenryBlogModule\GenryBlogModule();
 
         return $modules;
     }
