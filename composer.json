@@ -10,10 +10,11 @@
         }
     ],
     "require": {
-        "michaldudek/genry": "~0.1"
+        "michaldudek/genry": ">=0.3"
     },
     "minimum-stability": "dev",
     "config": {
+        "bin-dir": "bin",
         "vendor-dir": ".genry"
     }
 }
